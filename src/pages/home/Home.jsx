@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import image from '../../assets/images/headers/giraffe.avif'
 import Buttons from '../../components/commonly-used-elements/Buttons';
 import Animals from '../../components/Animals';
+import AboutTheConservation from '../../components/AboutTheConservation';
 
 const Home = () => {
     return (
@@ -20,6 +21,8 @@ const Home = () => {
             </Header>
 
             <Animals />
+
+            <AboutTheConservation />
         </div>
     )
 }

@@ -1,10 +1,10 @@
 export const PageHeading = ({ text, colour }) => {
-	return <h1 className="text-7xl font-bold">{text}</h1>;
+	return <h1 className="text-7xl font-bold mb-14">{text}</h1>;
 };
 
 export const SectionHeading = ({ text, colour }) => {
 	return (
-		<h2 className="text-4xl capitalize font-bold text-green-dark">{text}</h2>
+		<h2 className="text-4xl font-bold text-green-dark mb-11">{text}</h2>
 	);
 };
 
