@@ -4,6 +4,7 @@ import image from '../../assets/images/headers/giraffe.avif'
 import Buttons from '../../components/commonly-used-elements/Buttons';
 import Animals from '../../components/Animals';
 import AboutTheConservation from '../../components/AboutTheConservation';
+import meerkats from '../../assets/images/home-conservation-img.png'
 
 const Home = () => {
     return (
@@ -22,7 +23,9 @@ const Home = () => {
 
             <Animals />
 
-            <AboutTheConservation />
+            <AboutTheConservation 
+                image={meerkats} 
+                heading="About our conservation and what we do." />
         </div>
     )
 }

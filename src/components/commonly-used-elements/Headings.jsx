@@ -4,7 +4,7 @@ export const PageHeading = ({ text, colour }) => {
 
 export const SectionHeading = ({ text, colour }) => {
 	return (
-		<h2 className="text-4xl font-bold text-green-dark mb-11">{text}</h2>
+		<h2 className="text-4xl font-bold text-green-dark mb-0">{text}</h2>
 	);
 };
 
