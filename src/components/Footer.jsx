@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
-import { SubHeading } from "./commonly-used-elements/Headings";
+import Heading from "./commonly-used-elements/Headings";
 import { links } from "./navigation/links";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
 			<footer className="container m-auto text-left px-7 py-16 lg:flex lg:justify-between md:mb-0">
 				<section className="sm:flex sm:gap-20">
 					<article>
-						<SubHeading text="Quick Links" colour="white" />
+						<Heading text="Quick Links" colour="white" />
 
 						<nav>
 							<ul>
@@ -27,7 +27,7 @@ const Footer = () => {
 					</article>
 
 					<article>
-						<SubHeading text="Contact info" colour="white" />
+						<Heading text="Contact info" colour="white" extraClasses="mt-10" />
 
 						<div className="text-white">
 							<p>Castle Hill, Bristol</p>
@@ -40,7 +40,7 @@ const Footer = () => {
 				</section>
 
 				<form className="max-w-sm md:w-96">
-					<SubHeading text="Newsletter" colour="white" />
+					<Heading text="Newsletter" colour="white" />
 
 					<div className="w-full flex flex-col mb-4">
 						<label htmlFor="email" className="text-white mb-2">

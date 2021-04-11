@@ -1,13 +1,17 @@
-export const PageHeading = ({ text, colour }) => {
-	return <h1 className="text-7xl font-bold mb-14">{text}</h1>;
-};
+const Heading = ({ text, colour, extraClasses, size, level }) => {
+	const tag = 'h' + level;
 
-export const SectionHeading = ({ text, colour }) => {
 	return (
-		<h2 className="text-4xl font-bold text-green-dark mb-0">{text}</h2>
+		<tag className={`text-${colour} font-bold text-${size} mb-7 ${extraClasses}`}>{text}</tag>
 	);
 };
 
-export const SubHeading = ({ text, colour }) => {
-	return <h3 className="text-white font-bold text-2xl mb-7">{text}</h3>;
-};
+Heading.defaultProps = {
+	level: '2',
+	size: 'medium',
+	text: 'Add some text. use text="" prop.',
+	colour: 'green-dark',
+	extraClasses: ''
+}
+
+export default Heading;

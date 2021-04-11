@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Button from './commonly-used-elements/Buttons';
-import { PageHeading, SectionHeading } from './commonly-used-elements/Headings';
+import Heading from './commonly-used-elements/Headings';
 
 const Animals = ({ limit }) => {
 
@@ -18,7 +18,7 @@ const Animals = ({ limit }) => {
 
     return (
         <div className="container m-auto mt-32">
-            <PageHeading text="Animals" />
+            <Heading text="Animals" size="large" />
 
             <div className="grid grid-cols-3">
                 {animals.map((animal, i) => (
@@ -29,7 +29,7 @@ const Animals = ({ limit }) => {
             </div>
 
             <div className="m-auto w-96 flex flex-col items-center gap-4 my-32">
-                    <SectionHeading text="Meet all our animals" />
+                    <Heading text="Meet all our animals" />
 
                 <p className="text-center">Visit our Animals page and find out different things like what they eat and where they live.</p>
 
