@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Navigation from "./components/navigation/Navigation";
 import MobileNavigation from "./components/navigation/MobileNavigation";
 import Footer from "./components/Footer";
+import About from "./pages/about/About";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 
 				<Switch>
 					<Route exact path="/" component={() => <Home />} />
+					<Route exact path="/about" component={() => <About />} />
 				</Switch>
 
 				<MobileNavigation />
