@@ -1,9 +1,3 @@
-// import axios from 'axios';
-// import { useState, useEffect } from 'react';
-import Button from '../commonly-used-elements/Buttons';
-import Heading from '../commonly-used-elements/Headings';
-import Animal from './Animal';
-
 const Animals = ({ children }) => {
 
     return (

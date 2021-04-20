@@ -1,4 +1,5 @@
-import React from 'react';
+import React/*, { useState, useEffect }*/ from 'react';
+// import axios from 'axios';
 import Header from '../../components/Header';
 import AboutTheConservation from '../../components/AboutTheConservation';
 import meerkats from '../../assets/images/home-conservation-img.png'
