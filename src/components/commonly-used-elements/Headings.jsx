@@ -1,8 +1,8 @@
 const Heading = ({ text, colour, extraClasses, size, level }) => {
-	const tag = 'h' + level;
+	let Tag = 'h' + level;
 
 	return (
-		<tag className={`text-${colour} font-bold text-${size} mb-7 ${extraClasses}`}>{text}</tag>
+		<Tag className={`text-${colour} font-bold text-${size} mb-7 ${extraClasses}`}>{text}</Tag>
 	);
 };
 
