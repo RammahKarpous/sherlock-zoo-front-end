@@ -7,7 +7,7 @@ const Heading = ({ text, colour, extraClasses, size, level }) => {
 };
 
 Heading.defaultProps = {
-	level: 'p',
+	level: '3',
 	size: 'medium',
 	text: 'Add some text. use text="" prop.',
 	colour: 'green-dark',
