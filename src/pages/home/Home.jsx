@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../../components/Header';
 import image from '../../assets/images/headers/giraffe.avif'
 import Buttons from '../../components/commonly-used-elements/Buttons';
-import Animals from '../../components/Animals';
 import AboutTheConservation from '../../components/AboutTheConservation';
 import meerkats from '../../assets/images/home-conservation-img.png'
+import Animals from '../../components/animals/Animals';
 
 const Home = () => {
     return (
