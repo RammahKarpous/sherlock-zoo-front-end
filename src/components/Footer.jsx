@@ -1,17 +1,14 @@
 import { Link } from "react-router-dom";
-import CallToAction from "./CallToAction";
 import Heading from "./commonly-used-elements/Headings";
 import { links } from "./navigation/links";
 
 const Footer = () => {
 	return (
 		<div className="bg-green-dark">
-			<CallToAction />
-
 			<footer className="container m-auto text-left px-7 py-16 lg:flex lg:justify-between md:mb-0">
 				<section className="sm:flex sm:gap-20">
 					<article>
-						<Heading text="Quick Links" colour="white" />
+						<Heading text="Quick Links" colour="white" size="small" />
 
 						<nav>
 							<ul>
@@ -27,7 +24,7 @@ const Footer = () => {
 					</article>
 
 					<article>
-						<Heading text="Contact info" colour="white" extraClasses="mt-10" />
+						<Heading text="Contact info" colour="white" size="small" extraClasses="mt-10 md:mt-0" />
 
 						<div className="text-white">
 							<p>Castle Hill, Bristol</p>
@@ -40,7 +37,7 @@ const Footer = () => {
 				</section>
 
 				<form className="max-w-sm md:w-96">
-					<Heading text="Newsletter" colour="white" />
+					<Heading text="Newsletter" colour="white" size="small" extraClasses="mt-10 md:mt-0" />
 
 					<div className="w-full flex flex-col mb-4">
 						<label htmlFor="email" className="text-white mb-2">

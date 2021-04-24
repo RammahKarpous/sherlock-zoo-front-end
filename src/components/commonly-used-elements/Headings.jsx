@@ -1,8 +1,17 @@
-const Heading = ({ text, colour, extraClasses, size, level }) => {
+const Heading = ({ text, colour, extraClasses, weight, size, level }) => {
 	let Tag = 'h' + level;
 
 	return (
-		<Tag className={`text-${colour} font-bold text-${size} mb-7 leading-none ${extraClasses}`}>{text}</Tag>
+		<Tag className={`
+			text-${colour} 
+			font-${weight} 
+			text-${size} 
+			mb-2 
+			leading-tight 
+			${extraClasses}`}>
+				
+			{text}
+		</Tag>
 	);
 };
 
@@ -11,7 +20,8 @@ Heading.defaultProps = {
 	size: 'medium',
 	text: 'Add some text. use text="" prop.',
 	colour: 'green-dark',
-	extraClasses: ''
+	extraClasses: '',
+	weight: 'bold'
 }
 
 export default Heading;

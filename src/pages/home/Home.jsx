@@ -2,10 +2,10 @@ import React/*, { useState, useEffect }*/ from 'react';
 // import axios from 'axios';
 import Header from '../../components/Header';
 import AboutTheConservation from '../../components/AboutTheConservation';
-import meerkats from '../../assets/images/home-conservation-img.png'
 import Animals from '../../components/animals/Animals';
 import Heading from '../../components/commonly-used-elements/Headings';
 import Animal from '../../components/animals/Animal';
+import CallToAction from "../../components/CallToAction";
 import Button from '../../components/commonly-used-elements/Buttons';
 
 // Images
@@ -13,6 +13,7 @@ import HeaderImage from '../../assets/images/headers/giraffe.avif';
 import Bison from '../../assets/images/animals/bison.png';
 import BrownBear from '../../assets/images/animals/brown-bear.png';
 import Lion from '../../assets/images/animals/lion.png';
+import meerkats from '../../assets/images/home-conservation-img.png';
 
 const Home = () => {
 
@@ -67,6 +68,8 @@ const Home = () => {
             <AboutTheConservation 
                 image={meerkats} 
                 heading="About our conservation and what we do." />
+        
+            <CallToAction />
         </div>
     )
 }

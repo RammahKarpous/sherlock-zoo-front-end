@@ -1,5 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+.width-auto {
+    width: 740px;
+}
+
 @tailwind utilities;
 
 body {
