@@ -5,10 +5,10 @@ import { links } from "./links";
 const Navigation = () => {
 	return (
 		<nav>
-			<div className="container mx-auto flex justify-center md:justify-between items-center">
+			<div className="container mx-auto flex justify-center lg:justify-between items-center">
 				<img src={bristolLogo} alt="logo" />
 
-				<ul className="hidden md:flex items-center">
+				<ul className="hidden lg:flex items-center">
 					{links.map((link, i) => (
 						<li key={i}>
 							<Link className="py-4 px-5 inline-block" to={link.to}>

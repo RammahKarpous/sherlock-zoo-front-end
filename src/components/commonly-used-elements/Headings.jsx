@@ -5,9 +5,11 @@ const Heading = ({ text, colour, extraClasses, weight, size, level }) => {
 		<Tag className={`
 			text-${colour} 
 			font-${weight} 
-			text-${size} 
+				${size === 'small' && 'text-small'}
+				${size === 'medium' && 'text-small sm:text-medium md:text-large'}
+				${size === 'large' && 'text-medium xl:text-large'}
 			mb-2 
-			leading-tight 
+			leading-tight
 			${extraClasses}`}>
 				
 			{text}

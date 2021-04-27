@@ -12,11 +12,12 @@ const About = () => {
         <div>
             <Header image={HeaderImage} />
 
-            <div className="flex flex-col-reverse lg:flex-row mb-24 lg:gap-32 lg:w-11/12 lg:mr-0 lg:ml-auto">
+            {/* About the zoo */}
+            <div className="flex flex-col-reverse xl:flex-row mb-24 xl:gap-32 xl:w-11/12 xl:mr-0 xl:ml-auto">
                 <div className="lg:mt-28 mt-16 px-10">
                     <Heading level="2" text="About Sherlock Zoos" size="medium" />
 
-                    <div className="grid md:grid-cols-2 gap-5 lg:gap-16">
+                    <div className="grid grid-cols-none 2xl:grid-cols-2 gap-5 lg:gap-16">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus doloribus aspernatur asperiores vel consectetur ad corporis ipsa atque eligendi fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorem unde incidunt repudiandae cumque consectetur mollitia culpa cum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi mollitia eos facilis a, accusantium quidem aliquam cum eveniet illum?</p>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic quisquam sed voluptates quae pariatur id a in mollitia aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorem unde incidunt repudiandae cumque consectetur mollitia culpa cum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi mollitia eos facilis a, accusantium quidem aliquam cum eveniet illum?</p>
@@ -29,7 +30,8 @@ const About = () => {
                 <img src={AboutSherlockImage} alt="Kid feeds deers" className="w-full" />
             </div>
 
-            <div className="bg-body-darker flex flex-col justify-between md:flex-row">
+            {/* The conservation */}
+            <div className="bg-body-darker flex flex-col justify-between xl:flex-row">
                 <img src={ConservationImg} className="lg:w-7/12" alt="Conservation work"/>
 
                 <div className="flex-column">

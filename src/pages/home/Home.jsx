@@ -14,6 +14,7 @@ import Bison from '../../assets/images/animals/bison.png';
 import BrownBear from '../../assets/images/animals/brown-bear.png';
 import Lion from '../../assets/images/animals/lion.png';
 import meerkats from '../../assets/images/home-conservation-img.png';
+import { links } from './../../components/navigation/links';
 
 const Home = () => {
 
@@ -38,13 +39,13 @@ const Home = () => {
 
                     <p className="mb-3">Plan your day, visit our zoo and be friends with all of our animals. When you come along, not only you can become friends with them, but you can also discover the new world of wild life and learn what we do!</p>
 
-                    <Button text="Plan your day" to="/tickets" type="primary" />
+                    <Button text="Plan your day" to={links[4].to} type="primary" />
                 </div>
             </Header>
 
             <Animals>
                 <Heading text="Animals" size="large" />
-                <div className="grid grid-cols-3 gap-14">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14 ">
                     {/* {animals.map((animal, i) => (
                         <div key={i}>
                             <p>{animal.title.rendered}</p>
@@ -56,7 +57,7 @@ const Home = () => {
                     <Animal to="/" name="Brown bears" image={BrownBear} />
                 </div>
 
-                <div className="m-auto w-96 flex flex-col items-center gap-4 my-32">
+                <div className="m-auto sm:w-96 flex flex-col items-center gap-4 my-32">
                         <Heading text="Meet all our animals" />
 
                     <p className="text-center">Visit our Animals page and find out different things like what they eat and where they live.</p>
