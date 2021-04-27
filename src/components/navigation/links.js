@@ -1,9 +1,37 @@
 export const links = [
-	{ to: "/", name: "Home" },
-	{ to: "/about", name: "About" },
-	{ to: "/events", name: "Events" },
-	{ to: "/activities", name: "Activities" },
-	{ to: "/tickets", name: "Tickets" },
-	{ to: "/animals", name: "Animals" },
-	{ to: "/contact-us", name: "Contact us" },
+	{ 
+		key: 'home', 
+		to: "/", 
+		name: "Home"
+	},
+	{ 
+		key: 'about', 
+		to: "/about", 
+		name: "About" 
+	},
+	{ 
+		key: 'events', 
+		to: "/events", 
+		name: "Events" 
+	},
+	{ 
+		key: 'activities', 
+		to: "/activities", 
+		name: "Activities" 
+	},
+	{ 
+		key: 'tickets', 
+		to: "/tickets", 
+		name: "Tickets" 
+	},
+	{ 
+		key: 'animals', 
+		to: "/animals", 
+		name: "Animals" 
+	},
+	{ 
+		key: 'contact-us', 
+		to: "/contact-us", 
+		name: "Contact us" 
+	},
 ];
