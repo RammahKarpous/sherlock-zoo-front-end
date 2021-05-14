@@ -1,5 +1,4 @@
-import React/*, { useState, useEffect }*/ from 'react';
-// import axios from 'axios';
+import React from 'react';
 import Header from '../../components/Header';
 import AboutTheConservation from '../../components/AboutTheConservation';
 import Animals from '../../components/animals/Animals';
@@ -18,17 +17,6 @@ import { links } from './../../components/navigation/links';
 
 const Home = () => {
 
-    // const [animals, setAnimals] = useState([]);
-    // useEffect(() => {
-    //     fetchData();
-    //     // eslint-disable-next-line
-    // }, []);
-
-    // const fetchData = async () => {
-    //     await axios.get(`http://wordpress-api.me/wp-json/wp/v2/animals?_limit=${limit}`)
-    //         .then(res => setAnimals(res.data));
-    // }
-
     return (
         <div>
             <Header image={HeaderImage} className="relative">
@@ -46,11 +34,7 @@ const Home = () => {
             <Animals>
                 <Heading text="Animals" size="large" />
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14 ">
-                    {/* {animals.map((animal, i) => (
-                        <div key={i}>
-                            <p>{animal.title.rendered}</p>
-                        </div>
-                    ))} */}
+                    
 
                     <Animal to="/animals/bison" name="Bison" image={Bison} />
                     <Animal to="/animals/lion" name="Lion" image={Lion} />
