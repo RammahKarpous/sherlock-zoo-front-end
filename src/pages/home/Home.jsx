@@ -52,13 +52,13 @@ const Home = () => {
                         </div>
                     ))} */}
 
-                    <Animal to="/" name="Bison" image={Bison} />
-                    <Animal to="/" name="Lion" image={Lion} />
-                    <Animal to="/" name="Brown bears" image={BrownBear} />
+                    <Animal to="/animals/bison" name="Bison" image={Bison} />
+                    <Animal to="/animals/lion" name="Lion" image={Lion} />
+                    <Animal to="/animals/brown-bear" name="Brown bear" image={BrownBear} />
                 </div>
 
                 <div className="m-auto sm:w-96 flex flex-col items-center gap-4 my-32">
-                        <Heading text="Meet all our animals" />
+                        <Heading text="Meet all our animals" extraStyling="text-center" />
 
                     <p className="text-center">Visit our Animals page and find out different things like what they eat and where they live.</p>
 
