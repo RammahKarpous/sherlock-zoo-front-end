@@ -6,10 +6,10 @@ const CallToAction = () => {
 		<div className="bg-green-primary flex flex-col gap-5 justify-center py-12 items-center">
 			<Heading 
 				colour="white" 
-				text="How you can help?" 
-				extraClasses="mb-0" 
+				text="How you can help?"
 				size="medium" 
-				level="3" />
+				level="3"
+				extraStyling="mb-0 text-center" />
 
 			<p className="text-white text-center px-4 max-w-md">
 				Whenever you visit our zoo, you help us with protecting all the animals
