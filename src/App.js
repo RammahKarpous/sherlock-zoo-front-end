@@ -4,6 +4,7 @@ import Navigation from "./components/navigation/Navigation";
 import MobileNavigation from "./components/navigation/MobileNavigation";
 import Footer from "./components/Footer";
 import About from "./pages/about/About";
+import AnimalsPage from "./pages/animals/AnimalsPage";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Switch>
 					<Route exact path="/" component={() => <Home />} />
 					<Route exact path="/about" component={() => <About />} />
+					<Route exact path="/animals" component={() => <AnimalsPage />} />
 				</Switch>
 
 				<MobileNavigation />
