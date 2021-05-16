@@ -1,5 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
+import Header from "../../components/animals/Animal/Header"
 
 const AnimalPage = ({match}) => {
 
@@ -22,13 +23,12 @@ const AnimalPage = ({match}) => {
     if (isLoaded) {
         return (
             <div>
-                <h1>{animalInfo.title.rendered}</h1>
+                <Header animal={animalInfo} />
             </div>
         )
     }
 
     return <p>Loading</p>
-
 }
 
 export default AnimalPage

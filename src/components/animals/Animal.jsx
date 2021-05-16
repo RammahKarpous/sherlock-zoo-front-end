@@ -12,6 +12,7 @@ const Animal = ({animal}) => {
 
         // eslint-disable-next-line
     }, [])
+
     return (
         <Link to={`/animal/${animal.id}`} className="relative">
             <img src={image.source_url} alt={animal.title.rendered} className="w-full"/>
