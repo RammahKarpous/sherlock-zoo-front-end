@@ -3,15 +3,11 @@ import Header from '../../components/Header';
 import AboutTheConservation from '../../components/AboutTheConservation';
 import Animals from '../../components/animals/Animals';
 import Heading from '../../components/commonly-used-elements/Headings';
-import Animal from '../../components/animals/Animal';
 import CallToAction from "../../components/CallToAction";
 import Button from '../../components/commonly-used-elements/Buttons';
 
 // Images
 import HeaderImage from '../../assets/images/headers/giraffe.avif';
-import Bison from '../../assets/images/animals/bison.png';
-import BrownBear from '../../assets/images/animals/brown-bear.png';
-import Lion from '../../assets/images/animals/lion.png';
 import meerkats from '../../assets/images/home-conservation-img.png';
 import { links } from './../../components/navigation/links';
 
@@ -31,24 +27,17 @@ const Home = () => {
                 </div>
             </Header>
 
-            <Animals>
-                <Heading text="Animals" size="large" />
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-14 ">
-                    
-
-                    <Animal to="/animals/bison" name="Bison" image={Bison} />
-                    <Animal to="/animals/lion" name="Lion" image={Lion} />
-                    <Animal to="/animals/brown-bear" name="Brown bear" image={BrownBear} />
-                </div>
-
-                <div className="m-auto sm:w-96 flex flex-col items-center gap-4 my-32">
-                        <Heading text="Meet all our animals" extraStyling="text-center" />
-
-                    <p className="text-center">Visit our Animals page and find out different things like what they eat and where they live.</p>
-
-                    <Button to="/animals" type="primary" text="Bring me there!" />
-                </div>
+            <Animals limit={3}>
+                <Heading text="Animals" size="large" extraStyling="mb-4" />
             </Animals>
+            
+            <div className="m-auto sm:w-96 flex flex-col items-center gap-4 my-32">
+                    <Heading text="Meet all our animals" extraStyling="text-center" />
+
+                <p className="text-center">Visit our Animals page and find out different things like what they eat and where they live.</p>
+
+                <Button to="/animals" type="primary" text="Bring me there!" />
+            </div>
 
             <AboutTheConservation 
                 image={meerkats} 
