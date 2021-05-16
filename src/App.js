@@ -17,7 +17,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
 					<Route exact path="/animals" component={AnimalsPage} />
-					<Route exact path="/animal/:slug" component={AnimalPage} />
+					<Route exact path="/animal/:id" component={AnimalPage} />
 				</Switch>
 
 				<MobileNavigation />
