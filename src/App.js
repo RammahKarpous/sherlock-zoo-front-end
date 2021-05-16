@@ -5,6 +5,7 @@ import MobileNavigation from "./components/navigation/MobileNavigation";
 import Footer from "./components/Footer";
 import About from "./pages/about/About";
 import AnimalsPage from "./pages/animals/AnimalsPage";
+import AnimalPage from "./pages/animals/AnimalPage";
 
 function App() {
 	return (
@@ -13,9 +14,10 @@ function App() {
 				<Navigation />
 
 				<Switch>
-					<Route exact path="/" component={() => <Home />} />
-					<Route exact path="/about" component={() => <About />} />
-					<Route exact path="/animals" component={() => <AnimalsPage />} />
+					<Route exact path="/" component={Home} />
+					<Route exact path="/about" component={About} />
+					<Route exact path="/animals" component={AnimalsPage} />
+					<Route exact path="/animal/:slug" component={AnimalPage} />
 				</Switch>
 
 				<MobileNavigation />
