@@ -10,3 +10,7 @@
 body {
     background: #F1FEF6;
 }
+
+.dangerous p {
+    padding: 5px 0;
+}

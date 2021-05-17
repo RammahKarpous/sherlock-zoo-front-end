@@ -6,9 +6,9 @@ const Heading = ({ text, colour, extraStyling, weight, size, level }) => {
 			text-${colour} 
 			font-${weight} 
 				${size === 'small' ? 'text-small' : ''}
-				${size === 'medium' ? 'text-small sm:text-medium md:text-large' : ''}
+				${size === 'medium' ? 'text-small md:text-medium' : ''}
 				${size === 'large' ? 'text-medium xl:text-large' : ''}
-			leading-tight
+			leading-none
 			${extraStyling}`}>
 				
 			{text}

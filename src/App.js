@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./pages/about/About";
 import AnimalsPage from "./pages/animals/AnimalsPage";
 import AnimalPage from "./pages/animals/AnimalPage";
+import Contact from "./pages/contact/Contact";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 					<Route exact path="/about" component={About} />
 					<Route exact path="/animals" component={AnimalsPage} />
 					<Route exact path="/animal/:id" component={AnimalPage} />
+					<Route exact path="/contact-us" component={Contact} />
 				</Switch>
 
 				<MobileNavigation />

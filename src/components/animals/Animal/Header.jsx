@@ -12,7 +12,11 @@ const Header = ({animal}) => {
         // eslint-disable-next-line
     }, [])
 
-    return <img src={image.source_url} alt={animal.title.rendered} className="w-full"/>
+    return (
+        <div className="h-96 overflow-hidden">
+            <img src={image.source_url} alt={animal.title.rendered} className="w-full"/>
+        </div>
+    )
 }
 
 export default Header

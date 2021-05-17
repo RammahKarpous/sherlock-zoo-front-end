@@ -28,7 +28,7 @@ const Home = () => {
             </Header>
 
             <Animals limit={3}>
-                <Heading text="Animals" size="large" extraStyling="mb-4" />
+                <Heading text="Animals" size="medium" extraStyling="mb-4" />
             </Animals>
             
             <div className="m-auto sm:w-96 flex flex-col items-center gap-4 my-32">
