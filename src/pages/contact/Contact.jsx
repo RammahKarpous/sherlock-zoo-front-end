@@ -11,18 +11,18 @@ const Contact = () => {
             <Heading text="Contact us" level="1" size="large" />
 
             <InputWrap lgCols="2">
-                <Input name="first-name" text="First name" />
-                <Input name="last-name" text="Last name" />
+                <Input name="first-name" type="text" text="First name" />
+                <Input name="last-name" type="text" text="Last name" />
             </InputWrap>
 
             <InputWrap lgCols="2">
-                <Input name="email" text="Email address" />
-                <Input name="subject" text="Subject" />
+                <Input name="email" type="text" text="Email address" />
+                <Input name="subject" type="text" text="Subject" />
             </InputWrap>
 
-            <Input name="comment" text="Your message" />
+            <Input name="comment" type="comment" text="Your message" />
 
-            <Button text="Send form" type="primary" extraStyling="mt-2" />
+            <Button text="Send form" type="primary" to="#" extraStyling="mt-2" />
 
             <div className="my-20 flex flex-col gap-14">
                 <ContactInfo colour="green-darker" />
