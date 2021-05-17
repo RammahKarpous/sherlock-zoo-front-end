@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Heading from "./commonly-used-elements/Headings";
+import ContactInfo from "./ContactInfo";
 import { links } from "./navigation/links";
 
 const Footer = () => {
@@ -23,17 +24,7 @@ const Footer = () => {
 						</nav>
 					</article>
 
-					<article>
-						<Heading text="Contact info" colour="white" size="small" extraClasses="mt-10 md:mt-0" />
-
-						<div className="text-white">
-							<p>Castle Hill, Bristol</p>
-							<p className="mb-5">BS1 5JS</p>
-
-							<p>Tel: 0272 123 456</p>
-							<p>Mail: info@sherlockzoo.com</p>
-						</div>
-					</article>
+					<ContactInfo colour="white" />
 				</section>
 
 				<form className="max-w-sm md:w-96">
