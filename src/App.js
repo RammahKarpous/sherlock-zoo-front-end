@@ -7,6 +7,7 @@ import About from "./pages/about/About";
 import AnimalsPage from "./pages/animals/AnimalsPage";
 import AnimalPage from "./pages/animals/AnimalPage";
 import Contact from "./pages/contact/Contact";
+import Tickets from "./pages/tickets/Tickets";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
+					<Route exact path="/tickets" component={Tickets} />
 					<Route exact path="/animals" component={AnimalsPage} />
 					<Route exact path="/animal/:id" component={AnimalPage} />
 					<Route exact path="/contact-us" component={Contact} />

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Heading from "./commonly-used-elements/Headings";
 import ContactInfo from "./ContactInfo";
 import { links } from "./navigation/links";
+import Input from './form-elements/Input';
 
 const Footer = () => {
 	return (
@@ -30,16 +31,8 @@ const Footer = () => {
 				<form className="max-w-sm md:w-96">
 					<Heading text="Newsletter" colour="white" size="small" extraClasses="mt-10 md:mt-0" />
 
-					<div className="w-full flex flex-col mb-4">
-						<label htmlFor="email" className="text-white mb-2">
-							Email address
-						</label>
-						<input
-							type="email"
-							name="email"
-							id="email"
-							className="p-3 rounded-sm"
-						/>
+					<div className="mt-2 mb-3">
+						<Input type="email" text="Email address" name="email" labelColour="text-white" />
 					</div>
 
 					<input
