@@ -1,9 +1,9 @@
-import header from '../../assets/images/headers/tickets-header.png'
-import Input from '../../components/form-elements/Input';
-import Heading from './../../components/commonly-used-elements/Headings';
-import InputWrap from './../../components/form-elements/InputWrap';
-import Button from './../../components/commonly-used-elements/Buttons';
-import CallToAction from './../../components/CallToAction';
+import header from '../assets/images/headers/tickets-header.png'
+import Input from '../components/form-elements/Input';
+import Heading from '../components/commonly-used-elements/Headings';
+import InputWrap from '../components/form-elements/InputWrap';
+import Button from '../components/commonly-used-elements/Buttons';
+import CallToAction from '../components/CallToAction';
 
 const Tickets = () => {
     return (

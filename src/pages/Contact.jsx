@@ -1,8 +1,8 @@
-import Heading from "../../components/commonly-used-elements/Headings"
-import Input from "../../components/form-elements/Input"
-import InputWrap from "../../components/form-elements/InputWrap"
-import Button from "../../components/commonly-used-elements/Buttons"
-import ContactInfo from "../../components/ContactInfo"
+import Heading from "../components/commonly-used-elements/Headings"
+import Input from "../components/form-elements/Input"
+import InputWrap from "../components/form-elements/InputWrap"
+import Button from "../components/commonly-used-elements/Buttons"
+import ContactInfo from "../components/ContactInfo"
 
 const Contact = () => {
 

@@ -1,11 +1,11 @@
-import Header from "../../components/Header";
-import HeaderImage from '../../assets/images/headers/about-header.png';
-import Heading from "../../components/commonly-used-elements/Headings";
+import Header from "../components/Header";
+import HeaderImage from '../assets/images/headers/about-header.png';
+import Heading from "../components/commonly-used-elements/Headings";
 
 // Images
-import AboutSherlockImage from '../../assets/images/kid-with-deers.png';
-import ConservationImg from '../../assets/images/about-the-conservation.png';
-import ArrowLink from "../../components/commonly-used-elements/ArrowLink";
+import AboutSherlockImage from '../assets/images/kid-with-deers.png';
+import ConservationImg from '../assets/images/about-the-conservation.png';
+import ArrowLink from "../components/commonly-used-elements/ArrowLink";
 
 const About = () => {
     return (

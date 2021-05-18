@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from '../../components/Header';
-import AboutTheConservation from '../../components/AboutTheConservation';
-import Animals from '../../components/animals/Animals';
-import Heading from '../../components/commonly-used-elements/Headings';
-import CallToAction from "../../components/CallToAction";
-import Button from '../../components/commonly-used-elements/Buttons';
+import Header from '../components/Header';
+import AboutTheConservation from '../components/AboutTheConservation';
+import Animals from '../components/animals/Animals';
+import Heading from '../components/commonly-used-elements/Headings';
+import CallToAction from "../components/CallToAction";
+import Button from '../components/commonly-used-elements/Buttons';
 
 // Images
-import HeaderImage from '../../assets/images/headers/giraffe.avif';
-import meerkats from '../../assets/images/home-conservation-img.png';
-import { links } from './../../components/navigation/links';
+import HeaderImage from '../assets/images/headers/giraffe.avif';
+import meerkats from '../assets/images/home-conservation-img.png';
+import { links } from '../components/navigation/links';
 
 const Home = () => {
 

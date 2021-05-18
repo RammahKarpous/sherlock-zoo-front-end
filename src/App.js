@@ -1,13 +1,13 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./pages/home/Home";
+import Home from "./pages/Home";
 import Navigation from "./components/navigation/Navigation";
 import MobileNavigation from "./components/navigation/MobileNavigation";
 import Footer from "./components/Footer";
-import About from "./pages/about/About";
+import About from "./pages/About";
 import AnimalsPage from "./pages/animals/AnimalsPage";
 import AnimalPage from "./pages/animals/AnimalPage";
-import Contact from "./pages/contact/Contact";
-import Tickets from "./pages/tickets/Tickets";
+import Contact from "./pages/Contact";
+import Tickets from "./pages/Tickets";
 
 function App() {
 	return (
