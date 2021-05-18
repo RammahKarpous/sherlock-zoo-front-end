@@ -12,7 +12,7 @@ const Tickets = () => {
 
             <div className="xl:w-6/12 p-24 my-20 m-auto bg-body-darker">
 
-                <Heading text="Tickets" level="1" size="large" extraStyling="mb-3" />
+                <Heading text="Tickets" level="1" extraStyling="mb-3" />
                 <p className="lg:w-8/12 mb-12">Buy your tickets below, and become friends with all our amazing animals</p>
 
                 <InputWrap lgCols="2" lgGap="16">

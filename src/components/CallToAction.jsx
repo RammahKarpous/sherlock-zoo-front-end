@@ -7,7 +7,6 @@ const CallToAction = () => {
 			<Heading 
 				colour="white" 
 				text="How you can help?"
-				size="medium" 
 				level="3"
 				extraStyling="mb-0 text-center" />
 

@@ -3,7 +3,7 @@ import Heading from "./commonly-used-elements/Headings"
 const ContactInfo = ({colour}) => {
     return (
         <article>
-            <Heading text="Contact info" colour={colour} size="small" extraClasses="mt-10 md:mt-0" />
+            <Heading text="Contact info" colour={colour} level="3" extraClasses="mt-10 md:mt-0" />
 
             <div className={`text-${colour}`}>
                 <p>Castle Hill, Bristol</p>

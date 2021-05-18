@@ -36,7 +36,7 @@ const AnimalPage = ({match}) => {
 
                 <div className="grid grid-col-1 items-center gap-32 md:grid-cols-2 justify-center bg-green-dark">
                     <div className="ml-52">
-                        <Heading colour="white" text={`About ${animalInfo.title.rendered}s`} />
+                        <Heading colour="white" level="2" text={`About ${animalInfo.title.rendered}s`} />
                         <div 
                             className="text-white my-2 dangerous w-full" 
                             dangerouslySetInnerHTML={{ __html: animalInfo.acf.about_text }}></div>
@@ -56,7 +56,7 @@ const AnimalPage = ({match}) => {
                 </div>
 
                 <Animals limit={3}>
-                    <Heading text="Meet other animals you might like" size="medium" extraStyling="mb-4" />
+                    <Heading text="Meet other animals you might like" level="2" extraStyling="mb-4" />
                 </Animals>
 
                 <div className="py-10 bg-green-secondary flex items-center justify-center gap-6">

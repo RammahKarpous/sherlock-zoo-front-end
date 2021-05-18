@@ -10,7 +10,7 @@ const Footer = () => {
 			<footer className="container m-auto text-left px-7 py-16 lg:flex lg:justify-between md:mb-0">
 				<section className="sm:flex sm:gap-20">
 					<article>
-						<Heading text="Quick Links" colour="white" size="small" />
+						<Heading text="Quick Links" colour="white" level="3" />
 
 						<nav>
 							<ul>
@@ -29,7 +29,7 @@ const Footer = () => {
 				</section>
 
 				<form className="max-w-sm md:w-96">
-					<Heading text="Newsletter" colour="white" size="small" extraClasses="mt-10 md:mt-0" />
+					<Heading text="Newsletter" colour="white" level="3" extraClasses="mt-10 md:mt-0" />
 
 					<div className="mt-2 mb-3">
 						<Input type="email" text="Email address" name="email" labelColour="text-white" />
