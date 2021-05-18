@@ -26,6 +26,10 @@ module.exports = {
 			'small': '1.5rem',
 			'medium': '2.25rem',
 			'large': '4rem'
+		},
+		height: {
+			xl: '35em',
+			header: '800px'
 		}
 	},
 	variants: {
