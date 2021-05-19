@@ -29,7 +29,9 @@ module.exports = {
 		},
 		height: {
 			xl: '35em',
-			header: '800px'
+			header: '800px',
+			'tablet-header': '600px',
+			'mobile-header': '400px'
 		}
 	},
 	variants: {
