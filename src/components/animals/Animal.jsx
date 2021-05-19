@@ -7,7 +7,7 @@ const Animal = ({animal}) => {
     const [image, setImage] = useState('')
 
     useEffect(() => {
-        axios.get(`/wp-json/wp/v2/media/${animal.featured_media}`)
+        axios.get(`http://localhost:80/sherlock-zoos/wp-json/wp/v2/media/${animal.featured_media}`)
         .then(res => setImage(res.data));
 
         // eslint-disable-next-line

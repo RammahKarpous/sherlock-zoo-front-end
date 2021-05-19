@@ -12,7 +12,7 @@ const Animals = ({limit, children}) => {
     }, []); 
 
     const fetchData = async () => {
-        await axios.get(`/wp-json/wp/v2/animals/${limit ? '?per_page=' + limit : ''}`)
+        await axios.get(`http://localhost:80/sherlock-zoos/wp-json/wp/v2/animals/${limit ? '?per_page=' + limit : ''}`)
             .then(res => setAnimals(res.data))
             .catch(err => console.log(err));
         setIdLoaded(true)
