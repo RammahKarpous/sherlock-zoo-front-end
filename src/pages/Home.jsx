@@ -15,9 +15,9 @@ const Home = () => {
 
     return (
         <div>
-            <Header image={HeaderImage} className="relative">
+            <Header image={HeaderImage}>
                 <div 
-                    className="p-10 md:p-16 w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 bg-body-default absolute left-1/2 transform -translate-x-1/2 bottom-4 md:left-10 md:translate-x-0 md:bottom-auto md:top-24">
+                    className="p-10 md:p-16 w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 bg-body-default absolute left-0 transform -translate-x-1/2 bottom-4 md:left-28 md:translate-x-0 md:bottom-auto md:top-24">
 
                     <Heading level="1" text="Plan a day at Sherlock Zoos" />
 
