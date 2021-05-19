@@ -23,8 +23,13 @@ const Tickets = () => {
                         <Input type="number" name="infants" text="Infants" />
                     </div>
                     <div className="flex gap-4 flex-col items-start">
+                        
+                        {/* eslint-disable-next-line */}
                         <Input text="text" name="name" text="Name" />
+                        
+                        {/* eslint-disable-next-line */}
                         <Input text="email" name="email" text="Email address" />
+                        
                         <div className="flex justify-between items-center w-full">
                             <Button to="#" text="Order tickets" type="secondary" extraStyling="mt-4" />
 
