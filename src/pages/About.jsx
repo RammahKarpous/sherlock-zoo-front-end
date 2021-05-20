@@ -18,21 +18,7 @@ const About = () => {
                     <Heading level="2" text="About Sherlock Zoos" size="medium" extraStyling="mb-7" />
 
                     <div className="grid grid-cols-none 2xl:grid-cols-2 gap-5 lg:gap-16">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus doloribus aspernatur asperiores vel consectetur ad corporis ipsa atque eligendi fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorem unde incidunt repudiandae cumque consectetur mollitia culpa cum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi mollitia eos facilis a, accusantium quidem aliquam cum eveniet illum?</p>
-                        
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus doloribus aspernatur asperiores vel consectetur ad corporis ipsa atque eligendi fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorem unde incidunt repudiandae cumque consectetur mollitia culpa cum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi mollitia eos facilis a, accusantium quidem aliquam cum eveniet illum?</p>
-
-                        <div>
-                            <Heading text="Sherlock Zoe" level="3" extraStyling="mb-4" />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic quisquam sed voluptates quae pariatur id a in mollitia aspernatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo in dolorem unde incidunt repudiandae cumque consectetur mollitia culpa cum asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi mollitia eos facilis a, accusantium quidem aliquam cum eveniet illum?</p>
-                        </div>
-
-                        <div>
-                            <Heading text="Sherlock Zoe" level="3" extraStyling="mb-4" />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam nisi eligendi unde architecto soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eligendi.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in minima possimus ducimus vel ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eligendi.</p>
-                        </div>
-
+                        <p>Sherlock zoos is located two places. One in Bristol and the other one in is opened new in Philadelphia. The zoo has historically been known as the bca animal management centre, as its primary use was as a training facility for those students enrolled onto the various animal management courses that the college offers. The zoo is still (and will continue to be) a highly regarded practical training resource for our students. It provides our students with the opportunity to learn and develop practical skills that are so essential for making it in the animal industry.</p>
                     </div>
                 </div>
 
@@ -47,11 +33,7 @@ const About = () => {
                     <div className="py-20 px-10 md:p-20 lg:w-8/12">
                         <Heading text="Our Conservation" level="2" extraStyling="mb-7" />
 
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo doloribus saepe magnam alias, ipsam dolorum quod necessitatibus veritatis dicta earum.</p>
-
-                        <p className="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, excepturi. Nihil laudantium repellat cumque neque vero. Atque quos ex molestiae?</p>
-
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa repellendus vero deserunt obcaecati, magnam quam praesentium ipsa voluptatem consectetur.</p>
+                        <p className="mb-4">There are a lot of wild animals all around the world in big families and smaller families. Unfortunately some of these families are being killed by other people who try to make money off them. That’s why we stand up for these beautiful animals and protect them from these kind of people. If you want to know how YOU can help? click on the button below to find out more about this.</p>
                     </div>
 
                     <div className="bg-green-primary px-10 py-20 md:p-20 flex flex-col lg:flex-row gap-10">
