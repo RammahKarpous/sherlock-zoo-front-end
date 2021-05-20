@@ -19,7 +19,7 @@ const AnimalPage = ({match}) => {
     }, [])
 
     const fetsAnimalInfo = async () => {
-        await axios.get(`/wp-json/wp/v2/animals/${match.params.id}`)
+        await axios.get(`http://localhost:80/sherlock-zoos/wp-json/wp/v2/animals/${match.params.id}`)
             .then(res => setAnimalInfo(res.data))
 
         setIsLoaded(true)
