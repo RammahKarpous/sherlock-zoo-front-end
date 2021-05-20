@@ -29,6 +29,6 @@
     }
 
     .dangerous p {
-        @apply my-1;
+        @apply my-3;
     }
 }
