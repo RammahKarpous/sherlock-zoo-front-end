@@ -17,10 +17,10 @@ const Tickets = () => {
 
                 <InputWrap lgCols="2" lgGap="16">
                     <div>
-                        <Input type="number" name="seniors" text="Seniors" />
-                        <Input type="number" name="adults" text="Adults" />
-                        <Input type="number" name="teenagers" text="Teenagers" />
-                        <Input type="number" name="infants" text="Infants" />
+                        <Input type="number" name="seniors" text="Seniors (66+)" />
+                        <Input type="number" name="adults" text="Adults (18 - 65)" />
+                        <Input type="number" name="teenagers" text="Teenagers (13 - 17)" />
+                        <Input type="number" name="children" text="Children (12-)" />
                     </div>
                     <div className="flex gap-4 flex-col items-start">
                         
