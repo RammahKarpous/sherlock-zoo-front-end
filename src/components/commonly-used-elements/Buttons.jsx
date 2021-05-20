@@ -4,7 +4,7 @@ const Button = ({ to, text, type, extraStyling }) => {
 	return (
 		<Link
 			to={to}
-			className={`px-8 py-3 inline-block bg-button-${type} rounded-md ${extraStyling}`}>
+			className={`px-8 py-3 inline-block font-medium bg-button-${type} rounded-md ${extraStyling}`}>
 				{text}
 		</Link>
 	);
