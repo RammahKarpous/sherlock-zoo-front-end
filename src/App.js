@@ -9,6 +9,7 @@ import AnimalPage from "./pages/animals/AnimalPage";
 import Contact from "./pages/Contact";
 import Tickets from "./pages/Tickets";
 import Events from './pages/Events';
+import Activities from "./pages/Activities";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
 					<Route exact path="/tickets" component={Tickets} />
+					<Route exact path="/activities" component={Activities} />
 					<Route exact path="/events" component={Events} />
 					<Route exact path="/animals" component={AnimalsPage} />
 					<Route exact path="/animal/:id" component={AnimalPage} />
